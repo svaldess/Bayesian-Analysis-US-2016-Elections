@@ -13,6 +13,7 @@ under a distribution of state income categories. State income categories were cl
 
 The model implemented **Markov Chain Monte Carlo (MCMC)** to generate a sequence of samples from the posterior distribution of the parameters. 
 
-For a theoretical explanation of the model and explanation of the results, please refer to the paper published in this repo. 
-The code to compute the model was built in R, using **JAGS package**. JAGS can be downloaded [here](https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Mac%20OS%20X/JAGS-4.3.0.dmg/download).
-The file "Drives_elections2016.R" contains functions which are fully developed in the file "Solution_elections2016_final.R". Therefore, both files are mandatory to run the program.
+Notes:
+- For a theoretical explanation of the model and explanation of the results, please refer to the paper published in this repo. 
+- The code to compute the model was built in R, using **JAGS package** which can be downloaded [here](https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Mac%20OS%20X/JAGS-4.3.0.dmg/download).
+- The file "Drives_elections2016.R" contains functions which are fully developed in the file "Solution_elections2016_final.R". Therefore, both files are mandatory to run the program.
