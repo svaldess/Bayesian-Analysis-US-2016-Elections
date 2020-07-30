@@ -1,8 +1,8 @@
 # A Bayesian analysis of the impact of household income in the 2016 US Presidential Elections
-## #R #JAGS #MarkovChainMonteCarlo
+## #BayesianComputing #R #JAGS 
 
 This project address the question if votes varied significantly across the 50 states based on the median household income 
-during the U.S. presidential elections of 2016. A hierarchical Bayesian model to capture individual differences and group-level tendencies. 
+during the U.S. presidential elections of 2016. A **hierarchical Bayesian model** to capture individual differences and group-level tendencies. 
 
 This research brings insight as to why individual preferences could differ from the group-level tendencies. 
 Accordingly, it has been noted that richer people are more likely to vote for Republican candidates while poorer people are more inclined to vote for Democratic candidates. 
