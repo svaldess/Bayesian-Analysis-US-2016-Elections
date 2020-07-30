@@ -1,5 +1,5 @@
 # A Bayesian analysis of the impact of household income in the 2016 US Presidential Elections
-## #R #JAGS #Markov Chain Monte Carlo
+## #R #JAGS #MarkovChainMonteCarlo
 
 This project address the question if votes varied significantly across the 50 states based on the median household income 
 during the U.S. presidential elections of 2016. A hierarchical Bayesian model to capture individual differences and group-level tendencies. 
