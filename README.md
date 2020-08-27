@@ -1,5 +1,5 @@
-# A Bayesian analysis of the impact of household income in the 2016 US Presidential Elections
-## #BayesianComputing #R #JAGS 
+# Hierarchical Bayesian model to determine the impact of household income in the U.S. 2016 presidential elections
+## #Elections #JAGS 
 
 This project address the question if votes varied significantly across the 50 states based on the median household income 
 during the U.S. presidential elections of 2016. A **hierarchical Bayesian model** to capture individual differences and group-level tendencies. 
