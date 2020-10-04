@@ -1,0 +1,24 @@
+
+  model {
+    for ( i in 1:Nsubj ) {
+      z[i] ~ dbin( theta[i] , N[i] )
+      theta[i] ~ dbeta( omega[c[i]]*(kappa[c[i]]-2)+1 , (1-omega[c[i]])*(kappa[c[i]]-2)+1 ) 
+    }
+    for ( c in 1:Ncat ) {
+      omega[c] ~ dbeta( omegaO*(kappaO-2)+1 , (1-omegaO)*(kappaO-2)+1 )
+      kappa[c] <- kappaMinusTwo[c] + 2
+      kappaMinusTwo[c] ~ dgamma( kappaS , kappaR ) 
+    }
+    # Over-arching distribution of omega
+    omegaO ~ dbeta( 1.0 , 1.0 ) 
+    kappaO <- kappaMinusTwoO + 2
+    kappaMinusTwoO ~ dgamma( 0.01 , 0.01 )  # mean=1 , sd=10 (generic vague)
+    
+    # over-arching distribution of kappa
+    kappaS <- kappaMinusTwoS + 2
+    kappaMinusTwoS ~ dgamma( 0.01 , 0.01 )
+    
+    kappaR <- kappaMinusTwoR + 2
+    kappaMinusTwoR ~ dgamma( 0.01 , 0.01 )
+  }
+  
