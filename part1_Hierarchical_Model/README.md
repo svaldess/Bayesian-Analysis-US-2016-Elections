@@ -1,2 +1,2 @@
-For a theoretical explaination and the interpretation of results, please refer to **Part1_Hierarchical_Model.pdf**.
-
+- For a theoretical explaination and the interpretation of results, please refer to **Part1_Hierarchical_Model.pdf**.
+- To run the model, Driver_elections2016.R needs to be run with the other two R files.
