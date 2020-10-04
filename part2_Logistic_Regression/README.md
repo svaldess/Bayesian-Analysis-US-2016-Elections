@@ -1,2 +1,3 @@
 - For a theoretical explaination and the interpretation of results, please refer to **Part2_Logistic_Regression.pdf**.
 - To run the model, Run_Model.R needs to be run with the other two R files.
+- Model.txt explains the JAGS model.
